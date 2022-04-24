@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>TV Binge Tracker</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="This is where your description goes" />
-		<meta name="keywords" content="one, two, three" />
-
-		<title>Title in the tab</title>
-
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/style.css" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript
+			><link rel="stylesheet" href="assets/css/noscript.css"
+		/></noscript>
 	</head>
-	<body>
-		<h1>TV Binge Tracker</h1>
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<!-- Logo -->
+					<a href="index.html" class="logo">
+						<span class="symbol"><img src="images/logo.svg" alt="" /></span
+						><span class="title">TV Binge Tracker</span>
+					</a>
+			</header>
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+					<header>
+						<h1>
+							Friends
+						</h1>
+						<img id="showPoster" src="" alt="">
+						<div id="summarySection">
+						</div>
+					</header>
+					<section class="cast">
+						<h2>Cast</h2>
+						<ul id="castList"></ul>
+					</section>
+					<h2>Episodes</h2>
+					<section class="tiles" id="episodeList">
 
-		<h2></h2>
-		<img />
-		<h3>Summary</h3>
-		<div id="summarySection"></div>
-		<h3>Cast</h3>
-		<ul id="castList"></ul>
+						<!-- <article class="style1">
+							<span class="image">
+								<img src="images/pic01.jpg" alt="" />
+							</span>
+							<a href="#">
+								<h2>Magna</h2>
+								<div class="content">
+									<p>
+										Sed nisl arcu euismod sit amet nisi lorem etiam dolor
+										veroeros et feugiat.
+									</p>
+								</div>
+							</a>
+						</article> -->
+						
+					</section>
+				</div>
+			</div>
 
-		<h3>Episodes</h3>
-		<ul id="episodeList"></ul>
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
 
-		<script type="text/javascript" src="js/main.js"></script>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/app.js"></script>
 	</body>
 </html>
